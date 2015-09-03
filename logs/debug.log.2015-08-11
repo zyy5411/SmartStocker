@@ -1,0 +1,45 @@
+2015-08-1122:26:27 [main] INFO  java.lang.Class(line-35) 256   - add stock:股票代码：000725，时间：2015-07-20，开盘价：4.33，收盘价：4.3,最高价：4.41,最低价：4.23,换手率：5.58,成交额：562385.06,成交量：1.3036187E7,涨跌幅：-0.46
+2015-08-1122:26:27 [main] DEBUG org.apache.ibatis.logging.LogFactory(line-54) 346   - Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2015-08-1122:26:27 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource(line-54) 467   - PooledDataSource forcefully closed/removed all connections.
+2015-08-1122:26:27 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource(line-54) 467   - PooledDataSource forcefully closed/removed all connections.
+2015-08-1122:26:27 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource(line-54) 468   - PooledDataSource forcefully closed/removed all connections.
+2015-08-1122:26:27 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource(line-54) 468   - PooledDataSource forcefully closed/removed all connections.
+2015-08-1122:26:27 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction(line-54) 666   - Opening JDBC Connection
+2015-08-1122:26:28 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource(line-54) 940   - Created connection 558569884.
+2015-08-1122:26:28 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction(line-54) 941   - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@214b199c]
+2015-08-1122:26:28 [main] DEBUG zyy.stocker.dao.IStock.isStockExist(line-54) 946   - ==>  Preparing: select 1 from stockdata where code=? and date=? limit 0,1 
+2015-08-1122:26:28 [main] DEBUG zyy.stocker.dao.IStock.isStockExist(line-54) 991   - ==> Parameters: 000725(String), 2015-07-20(String)
+2015-08-1122:26:28 [main] DEBUG zyy.stocker.dao.IStock.isStockExist(line-54) 1026  - <==      Total: 1
+2015-08-1122:26:28 [main] WARN  java.lang.Class(line-25) 1027  - 股票代码：000725,日期：2015-07-20,记录已存在， 不插入数据库。
+2015-08-1122:26:28 [main] INFO  java.lang.Class(line-35) 1029  - add stock:股票代码：000725，时间：2015-07-17，开盘价：4.11，收盘价：4.32,最高价：4.4,最低价：4.1,换手率：6.17,成交额：613952.4,成交量：1.4418725E7,涨跌幅：5.62
+2015-08-1122:26:28 [main] DEBUG zyy.stocker.dao.IStock.isStockExist(line-54) 1030  - ==>  Preparing: select 1 from stockdata where code=? and date=? limit 0,1 
+2015-08-1122:26:28 [main] DEBUG zyy.stocker.dao.IStock.isStockExist(line-54) 1030  - ==> Parameters: 000725(String), 2015-07-17(String)
+2015-08-1122:26:28 [main] DEBUG zyy.stocker.dao.IStock.isStockExist(line-54) 1033  - <==      Total: 1
+2015-08-1122:26:28 [main] WARN  java.lang.Class(line-25) 1034  - 股票代码：000725,日期：2015-07-17,记录已存在， 不插入数据库。
+2015-08-1122:26:28 [main] INFO  java.lang.Class(line-35) 1035  - add stock:股票代码：000725，时间：2015-07-16，开盘价：4.0，收盘价：4.09,最高价：4.2,最低价：3.82,换手率：5.3,成交额：502160.34,成交量：1.2367057E7,涨跌幅：1.74
+2015-08-1122:26:28 [main] DEBUG zyy.stocker.dao.IStock.isStockExist(line-54) 1036  - ==>  Preparing: select 1 from stockdata where code=? and date=? limit 0,1 
+2015-08-1122:26:28 [main] DEBUG zyy.stocker.dao.IStock.isStockExist(line-54) 1036  - ==> Parameters: 000725(String), 2015-07-16(String)
+2015-08-1122:26:28 [main] DEBUG zyy.stocker.dao.IStock.isStockExist(line-54) 1040  - <==      Total: 1
+2015-08-1122:26:28 [main] WARN  java.lang.Class(line-25) 1041  - 股票代码：000725,日期：2015-07-16,记录已存在， 不插入数据库。
+2015-08-1122:26:28 [main] INFO  java.lang.Class(line-35) 1042  - add stock:股票代码：000725，时间：2015-07-15，开盘价：4.75，收盘价：4.02,最高价：4.75,最低价：4.0,换手率：8.87,成交额：885670.0,成交量：2.0725292E7,涨跌幅：-8.64
+2015-08-1122:26:28 [main] DEBUG zyy.stocker.dao.IStock.isStockExist(line-54) 1042  - ==>  Preparing: select 1 from stockdata where code=? and date=? limit 0,1 
+2015-08-1122:26:28 [main] DEBUG zyy.stocker.dao.IStock.isStockExist(line-54) 1043  - ==> Parameters: 000725(String), 2015-07-15(String)
+2015-08-1122:26:28 [main] DEBUG zyy.stocker.dao.IStock.isStockExist(line-54) 1044  - <==      Total: 1
+2015-08-1122:26:28 [main] WARN  java.lang.Class(line-25) 1044  - 股票代码：000725,日期：2015-07-15,记录已存在， 不插入数据库。
+2015-08-1122:26:28 [main] INFO  java.lang.Class(line-35) 1045  - add stock:股票代码：000725，时间：2015-07-14，开盘价：4.4，收盘价：4.4,最高价：4.4,最低价：4.4,换手率：1.05,成交额：107530.06,成交量：2443865.0,涨跌幅：10.0
+2015-08-1122:26:28 [main] DEBUG zyy.stocker.dao.IStock.isStockExist(line-54) 1046  - ==>  Preparing: select 1 from stockdata where code=? and date=? limit 0,1 
+2015-08-1122:26:28 [main] DEBUG zyy.stocker.dao.IStock.isStockExist(line-54) 1046  - ==> Parameters: 000725(String), 2015-07-14(String)
+2015-08-1122:26:28 [main] DEBUG zyy.stocker.dao.IStock.isStockExist(line-54) 1048  - <==      Total: 1
+2015-08-1122:26:28 [main] WARN  java.lang.Class(line-25) 1048  - 股票代码：000725,日期：2015-07-14,记录已存在， 不插入数据库。
+2015-08-1122:26:28 [main] INFO  java.lang.Class(line-35) 1049  - add stock:股票代码：000725，时间：2015-07-13，开盘价：4.0，收盘价：4.0,最高价：4.0,最低价：4.0,换手率：0.72,成交额：66971.87,成交量：1674297.0,涨跌幅：9.89
+2015-08-1122:26:28 [main] DEBUG zyy.stocker.dao.IStock.isStockExist(line-54) 1049  - ==>  Preparing: select 1 from stockdata where code=? and date=? limit 0,1 
+2015-08-1122:26:28 [main] DEBUG zyy.stocker.dao.IStock.isStockExist(line-54) 1050  - ==> Parameters: 000725(String), 2015-07-13(String)
+2015-08-1122:26:28 [main] DEBUG zyy.stocker.dao.IStock.isStockExist(line-54) 1051  - <==      Total: 1
+2015-08-1122:26:28 [main] WARN  java.lang.Class(line-25) 1052  - 股票代码：000725,日期：2015-07-13,记录已存在， 不插入数据库。
+2015-08-1122:26:28 [main] INFO  java.lang.Class(line-35) 1052  - add stock:股票代码：000725，时间：2015-07-07，开盘价：3.94，收盘价：3.64,最高价：3.94,最低价：3.64,换手率：8.9,成交额：768799.0,成交量：2.0789894E7,涨跌幅：-9.9
+2015-08-1122:26:28 [main] DEBUG zyy.stocker.dao.IStock.isStockExist(line-54) 1053  - ==>  Preparing: select 1 from stockdata where code=? and date=? limit 0,1 
+2015-08-1122:26:28 [main] DEBUG zyy.stocker.dao.IStock.isStockExist(line-54) 1053  - ==> Parameters: 000725(String), 2015-07-07(String)
+2015-08-1122:26:28 [main] DEBUG zyy.stocker.dao.IStock.isStockExist(line-54) 1055  - <==      Total: 0
+2015-08-1122:26:28 [main] DEBUG zyy.stocker.dao.IStock.addAStock(line-54) 1056  - ==>  Preparing: insert into stockdata(code,date,maxPrice,leastPrice, openPrice,closePrice,changeRate,turnOverRate,exchangeArea,volumn,turnVolumn) values(?,?,?,?, ?,?,?,?,'sh',?,?) 
+2015-08-1122:26:28 [main] DEBUG zyy.stocker.dao.IStock.addAStock(line-54) 1058  - ==> Parameters: 000725(String), 2015-07-07(String), 3.94(Float), 3.64(Float), 3.94(Float), 3.64(Float), -9.9(Float), 8.9(Float), 2.0789894E7(Float), 768799.0(Float)
+2015-08-1122:26:28 [main] DEBUG zyy.stocker.dao.IStock.addAStock(line-54) 1059  - <==    Updates: 1

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="jar/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="jar/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="jar/httpclient-4.5.jar"/>
+	<classpathentry kind="lib" path="jar/httpclient-cache-4.5.jar"/>
+	<classpathentry kind="lib" path="jar/httpcore-4.4.1.jar"/>
+	<classpathentry kind="lib" path="jar/mybatis-3.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="jar/mysql-jdbc.jar"/>
+	<classpathentry kind="lib" path="jar/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="jar/org.springframework.beans-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="jar/org.springframework.context-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="jar/org.springframework.core-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="jar/org.springframework.asm-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="jar/org.springframework.expression-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

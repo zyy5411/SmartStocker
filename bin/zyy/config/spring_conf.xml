@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+				http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd
+				http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">
+				
+	<bean id="dataSourceConfig1" class="zyy.stocker.spider.meta.DataSourceConfig">
+		<property name="fromCode" value="000700" />
+		<property name="toCode" value="000725" />
+		<property name="fromDate" value="20140622" />
+		<property name="toDate" value="20140910" />
+		<property name="handleClass" value="SohuData" />
+	</bean>
+	
+	<bean id="DataCollectionConfiguration" class="zyy.stocker.spider.meta.DataCollectionConfiguration">
+		<property name="MaxThread" value="5" />
+		<property name="MAX_LIST_SIZE" value="5"></property>
+		<property name="dataSourceConfigs">
+			<list>
+				<ref bean="dataSourceConfig1"/>
+			</list>
+		</property>
+	</bean>
+</beans>

@@ -1,0 +1,32 @@
+2015-08-2311:08:14 [main] ERROR java.lang.Class(line-36) 785   - zyy.stocker.spider.SohuDataSource
+2015-08-2311:15:21 [main] ERROR java.lang.Class(line-35) 625   - zyy.stocker.spider.SohuDataSource
+2015-08-2311:15:51 [main] ERROR java.lang.Class(line-36) 590   - zyy.stocker.spider.SohuDataSource
+2015-08-2311:16:36 [main] ERROR java.lang.Class(line-36) 647   - zyy.stocker.spider.SohuDataSource
+2015-08-2311:17:12 [main] ERROR java.lang.Class(line-36) 599   - zyy.stocker.spider.SohuDataSource
+2015-08-2311:22:06 [main] ERROR java.lang.Class(line-36) 729   - zyy.stocker.spider.SohuDataSource
+2015-08-2311:24:20 [main] ERROR java.lang.Class(line-37) 708   - zyy.stocker.spider.SohuDataSource
+2015-08-2311:24:35 [main] ERROR java.lang.Class(line-38) 1026  - zyy.stocker.spider.SohuDataSource
+2015-08-2311:24:53 [main] ERROR java.lang.Class(line-40) 669   - zyy.stocker.spider.SohuDataSource
+2015-08-2311:26:07 [main] ERROR java.lang.Class(line-41) 673   - zyy.stocker.spider.SohuDataSource
+2015-08-2321:04:43 [main] ERROR java.lang.Class(line-48) 0     - 12312
+2015-08-2321:16:41 [main] WARN  java.lang.Class(line-25) 1096  - 股票代码：000725,日期：2015-01-01,记录已存在， 不插入数据库。
+2015-08-2321:18:22 [main] WARN  java.lang.Class(line-25) 1123  - 股票代码：000725,日期：2015-01-01,记录已存在， 不插入数据库。
+2015-08-2321:19:38 [main] WARN  java.lang.Class(line-25) 1087  - 股票代码：000725,日期：2015-01-01,记录已存在， 不插入数据库。
+2015-08-2321:20:51 [main] WARN  java.lang.Class(line-25) 1049  - 股票代码：000725,日期：2015-01-01,记录已存在， 不插入数据库。
+2015-08-2321:21:06 [main] WARN  java.lang.Class(line-25) 997   - 股票代码：000725,日期：2015-01-01,记录已存在， 不插入数据库。
+2015-08-2321:25:48 [main] WARN  java.lang.Class(line-25) 1167  - 股票代码：000725,日期：2015-01-01,记录已存在， 不插入数据库。
+2015-08-2321:26:05 [main] WARN  java.lang.Class(line-25) 1011  - 股票代码：000725,日期：2015-01-01,记录已存在， 不插入数据库。
+2015-08-2321:28:59 [main] WARN  java.lang.Class(line-27) 1228  - 股票代码：000725,日期：2015-01-01,记录已存在， 不插入数据库。
+2015-08-2321:42:23 [Thread-4] WARN  java.lang.Class(line-27) 30442  - 股票代码：000725,日期：2014-09-10,记录已存在， 不插入数据库。
+2015-08-2321:42:23 [Thread-4] WARN  java.lang.Class(line-27) 30444  - 股票代码：000725,日期：2014-09-09,记录已存在， 不插入数据库。
+2015-08-2321:42:23 [Thread-4] WARN  java.lang.Class(line-27) 30446  - 股票代码：000725,日期：2014-09-05,记录已存在， 不插入数据库。
+2015-08-2321:42:23 [Thread-4] WARN  java.lang.Class(line-27) 30447  - 股票代码：000725,日期：2014-09-04,记录已存在， 不插入数据库。
+2015-08-2321:42:23 [Thread-4] WARN  java.lang.Class(line-27) 30448  - 股票代码：000725,日期：2014-09-03,记录已存在， 不插入数据库。
+2015-08-2321:42:23 [Thread-4] WARN  java.lang.Class(line-27) 30450  - 股票代码：000725,日期：2014-09-02,记录已存在， 不插入数据库。
+2015-08-2321:42:23 [Thread-4] WARN  java.lang.Class(line-27) 30451  - 股票代码：000725,日期：2014-09-01,记录已存在， 不插入数据库。
+2015-08-2321:42:23 [Thread-4] WARN  java.lang.Class(line-27) 30453  - 股票代码：000725,日期：2014-08-29,记录已存在， 不插入数据库。
+2015-08-2321:42:23 [Thread-4] WARN  java.lang.Class(line-27) 30454  - 股票代码：000725,日期：2014-08-28,记录已存在， 不插入数据库。
+2015-08-2321:42:23 [Thread-4] WARN  java.lang.Class(line-27) 30456  - 股票代码：000725,日期：2014-08-27,记录已存在， 不插入数据库。
+2015-08-2321:42:23 [Thread-4] WARN  java.lang.Class(line-27) 30457  - 股票代码：000725,日期：2014-08-26,记录已存在， 不插入数据库。
+2015-08-2321:42:23 [Thread-4] WARN  java.lang.Class(line-27) 30459  - 股票代码：000725,日期：2014-08-25,记录已存在， 不插入数据库。
+2015-08-2321:42:23 [Thread-4] WARN  java.lang.Class(line-27) 30461  - 股票代码：000725,日期：2014-08-22,记录已存在， 不插入数据库。
